@@ -20,9 +20,9 @@ def findAngle(h, m):
 # Clock Angle Problem
 if __name__ == '__main__':
 
-	h =5
+	h = int(input())
 
-	m =30
+	m = int(input())
 
 print('Angle=',findAngle(h, m),"degree")
 
